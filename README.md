@@ -95,4 +95,4 @@ output/multiview_features.h5 # the output file
 ```
 
 ## Acknowledgement
-This repo is built upon [D3Net](https://github.com/daveredrum/D3Net) and [ScanNet](https://github.com/ScanNet/ScanNet).
+This repo is built upon [3DMV](https://github.com/angeladai/3DMV), [ENet](https://vitalab.github.io/article/2019/05/06/ENet.html), [ScanRefer](https://github.com/daveredrum/ScanRefer) and [ScanNet](https://github.com/ScanNet/ScanNet).
