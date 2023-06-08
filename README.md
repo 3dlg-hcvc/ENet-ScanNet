@@ -86,9 +86,9 @@ Then, it outputs the `output/video_frame_features.h5` file with the following fo
 ```shell
 python project_features_to_points.py
 ```
-Then, it outputs `output/multiview_features_{train/val/test}.h5` files with the following format:
+Then, it outputs `output/multiview_features.h5` files with the following format:
 ```shell
-output/multiview_features_{train/val/test}.h5 # the output file
+output/multiview_features.h5 # the output file
  ├── [scene_id] # dataset
  │   ├── (points, 128) # (#points, #feature_channel)
  ...
