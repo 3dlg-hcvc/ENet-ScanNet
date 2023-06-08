@@ -1,0 +1,7 @@
+numpy
+hydra-core
+Pillow
+tqdm
+h5py
+opencv-python
+open3d

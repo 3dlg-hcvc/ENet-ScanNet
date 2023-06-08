@@ -1,0 +1,23 @@
+# Managed by Hydra
+
+dataset_path: ${project_root_path}/dataset/scannetv2
+raw_scene_path: ${data.dataset_path}/scans
+
+metadata:
+  metadata_root_path: ${data.dataset_path}/metadata
+  video_frames_path: ${data.dataset_path}/video_frames
+  scene_ids: ${data.metadata.metadata_root_path}/scannetv2.txt
+  intrinsic: [[37.01983, 0, 20, 0], [0, 38.52470, 15.5, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+frames_sample: 20
+rgb_image_size: [328, 256]
+depth_image_size: [41, 32]
+
+dataloader:
+  batch_size: 512
+  num_workers: 8
+
+extraction_output:
+  color_image: False
+  depth_image: True
+  pose_txt: True

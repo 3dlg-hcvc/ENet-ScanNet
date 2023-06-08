@@ -1,0 +1,18 @@
+# Managed by Hydra
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+defaults:
+  - _self_
+  - data: scannetv2
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+project_root_path: ${hydra:runtime.cwd}
+ckpt_path: checkpoints/scannetv2_enet.pth
+
+output_root_dir: output
+enet_feature_output_path: ${output_root_dir}/video_frame_features.h5
