@@ -123,4 +123,4 @@ If you use the ScanNet data, please cite:
 ```
 
 ## Acknowledgement
-This repo is built upon [3DMV](https://github.com/angeladai/3DMV), [ENet](https://vitalab.github.io/article/2019/05/06/ENet.html), [ScanRefer](https://github.com/daveredrum/ScanRefer) and [ScanNet](https://github.com/ScanNet/ScanNet).
+This repo is built upon [3DMV](https://github.com/angeladai/3DMV), [ScanRefer](https://github.com/daveredrum/ScanRefer) and [ScanNet](https://github.com/ScanNet/ScanNet).
