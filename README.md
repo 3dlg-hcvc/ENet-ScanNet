@@ -94,5 +94,33 @@ output/multiview_features.h5 # the output file
  ...
 ```
 
+## Citation
+If you use this code to extract ENet-based multi-view features, please cite the following:
+```bibtex
+@inproceedings{dai20183dmv,
+  title={3dmv: Joint 3d-multi-view prediction for 3d semantic scene segmentation},
+  author={Dai, Angela and Nie{\ss}ner, Matthias},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={452--468},
+  year={2018}
+}
+@article{paszke2016enet,
+  title={Enet: A deep neural network architecture for real-time semantic segmentation},
+  author={Paszke, Adam and Chaurasia, Abhishek and Kim, Sangpil and Culurciello, Eugenio},
+  journal={arXiv preprint arXiv:1606.02147},
+  year={2016}
+}
+```
+If you use the ScanNet data, please cite:
+```bibtex
+@inproceedings{dai2017scannet,
+  title={Scannet: Richly-annotated 3d reconstructions of indoor scenes},
+  author={Dai, Angela and Chang, Angel X and Savva, Manolis and Halber, Maciej and Funkhouser, Thomas and Nie{\ss}ner, Matthias},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={5828--5839},
+  year={2017}
+}
+```
+
 ## Acknowledgement
 This repo is built upon [3DMV](https://github.com/angeladai/3DMV), [ENet](https://vitalab.github.io/article/2019/05/06/ENet.html), [ScanRefer](https://github.com/daveredrum/ScanRefer) and [ScanNet](https://github.com/ScanNet/ScanNet).
